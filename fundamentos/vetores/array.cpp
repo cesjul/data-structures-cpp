@@ -9,6 +9,7 @@ int main(){
     c[1] = 20;
 
     for (int i = 0; i < ARRAY_LEN; i++){
+        c[i] = 2 * i;
         std::cout << "c[" << i << "] = " << c[i] << std::endl;
     }
 }
