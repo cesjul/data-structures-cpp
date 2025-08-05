@@ -55,7 +55,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${fileDirname}\\stack_main.cpp",
-                "${fileDirname}\\stack_vector.cpp",
+                "${fileDirname}\\stack.cpp",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],

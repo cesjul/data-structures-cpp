@@ -11,6 +11,6 @@ int main(){
 
     anotherInt = *intPointer;
 
-    cout << intPointer << endl;
+    cout << *intPointer << endl;
 
 }
